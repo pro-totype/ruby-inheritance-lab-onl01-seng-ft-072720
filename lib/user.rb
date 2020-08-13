@@ -7,11 +7,11 @@ class User
     @last_name = last_name
   end
 
-  def first_name
+  def self.first_name
     @first_name
   end
   
-  def last_name
+  def self.last_name
     @last_name
   end
   
